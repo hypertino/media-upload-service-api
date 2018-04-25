@@ -24,6 +24,13 @@ types:
             "1024x768": "https://cdn.example.com/abc/def/1024.jpeg",
             "320x240": "https://cdn.example.com/abc/def/320.jpeg"
           }
+      thumbnails?:
+        type: object
+        example: |
+          {
+            "1024x768": "https://cdn.example.com/abc/def/1024.mp4.jpeg",
+            "320x240": "https://cdn.example.com/abc/def/320.mp4.jpeg"
+          }
       status: MediaStatus
 
 /media-files:
